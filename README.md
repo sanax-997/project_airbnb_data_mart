@@ -17,3 +17,18 @@ When a user has made a reservation for an accommodation with the “GuestBooking
 
 ## Review component
 The last major component are the reviews. Reviews can be made about a guest, a host, or a specific accommodation. A review about accommodations is made with the “AccommodationReview” procedure, about a guest with the “GuestReview” procedure, and about the host with the “HostReview” procedure. These recommendations consist of a rating and an optional text. These reviews can also be deleted again with the respective procedures, “DeleteAccommodationReview”, “DeleteGuestReview”, and “DeleteHostReview”.
+
+## Installation
+To install and use the application the following steps must be fulfilled:
+1. Download the application from Github and extract the contents
+2. Download and install XAMPP from Apache Friends
+3. Then execute the XAMPP program and start the Apache and MySQL module
+4. Open a web browser and enter “localhost” as URL in the address bar
+5. Click phpMyAdmin in the bar
+6. Add a new database by pressing the “new” button. 
+7. Choose a name for the database, for example, “airbnb data mart”
+8. Select the newly created database
+9. Click the “import” button in the taskbar
+10. Press on the “choose file” button and select the “project_data_mart.sql” file, extracted from 
+the Github contents
+11. The press the “ok” button
